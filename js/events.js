@@ -18,12 +18,10 @@ function pressIt(){
   })
 }
 
-function submitIT(){
-  $("form").on("submit",function(){
-
-      "Your form is going to be submitted now.");
-
-  })
+function submitIt(){
+  $("form").on("submit", function(){
+    alert("Your form is going to be submitted now.");
+  });
 }
 $(document).ready(function(){
 
